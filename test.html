@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>The Emotifier</title>
+</head>
+
+<body>
+<h1>The Emotifier</h1>
+<p>Enter text to be converted to emoticon-based block letters.  Copy and paste the result into MSN Messenger.  Letters, numbers, and space only.</p>
+
+<script type="text/javascript" src="emotifier.js"></script>
+Input:<br />
+<input type="text" name="emotifyIn" id="emotifyIn" maxlength="4" />&nbsp;<input type="button" onclick="emotify('emotifyIn', 'emotifyOut')" value="Emotify Me!" /><br />
+Output:<br />
+<textarea name="emotifyOut" id="emotifyOut" rows="8" cols="52" wrap="off" style="font-family: fixed !important;"></textarea>
+
+<p>Note: Due to Messenger message length limitations, four characters max are allowed.  Also, the recipient's chat window needs to be opened wide enough to see the whole message - there's no "nowrap" attribute that can be applied here.</p>
+
+</body>
+</html>
